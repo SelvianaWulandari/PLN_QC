@@ -1,0 +1,7 @@
+RewriteEngine On
+RewriteRule ^home$ pages/home.php [L]
+RewriteRule ^new-project$ pages/new_project.php [L]
+RewriteRule ^tracker$ pages/tracker.php [L]
+RewriteRule ^login$ auth/login.php [L]
+RewriteRule ^logout$ auth/logout.php [L]
+RewriteRule ^upload$ upload.php [L]
