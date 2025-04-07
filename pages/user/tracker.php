@@ -177,51 +177,51 @@ $result = mysqli_stmt_get_result($stmt);
                                         <input type="hidden" name="status" value="<?= htmlspecialchars($row['status']) ?>">
                                         <!-- Input Hidden -->
 
-                                        <label for="category">Upload foto pelaksanaan</label>
-<select name="category" required class="p-2 border rounded">
-    <option value="">-- Pilih kategori foto kegiatan --</option>
-    <optgroup label="Foto Kegiatan">
-        <option value="Pengecekan Dokumen DP3, JSA, WP">1. Pengecekan Dokumen DP3, JSA, WP</option>
-        <option value="Pantauan hotspot sebelum manuver">2. Pantauan hotspot sebelum manuver</option>
-        <option value="Manuver menggunakan SOP Berbasis foto">3. Manuver menggunakan SOP Berbasis foto</option>
-        <option value="Pengecekan parameter arus-tegangan setelah pembebasan">4. Pengecekan parameter arus-tegangan setelah pembebasan</option>
-        <option value="Merubah switch control PMT off">5a. Merubah switch control di PMT menjadi off</option>
-        <option value="Merubah switch control PMS Bus A off">5b. Merubah switch control di PMS Bus A menjadi off</option>
-        <option value="Merubah switch control PMS Bus B off">5c. Merubah switch control di PMS Bus B menjadi off</option>
-        <option value="Merubah switch control PMS Line off">5d. Merubah switch control di PMS Line menjadi off</option>
-        <option value="Mematikan supply catu daya PMS Bus A">6a. Mematikan supply catu daya AC-DC di PMS Bus A</option>
-        <option value="Mematikan supply catu daya PMS Bus B">6b. Mematikan supply catu daya AC-DC di PMS Bus B</option>
-        <option value="Mematikan supply catu daya PMS Line">6c. Mematikan supply catu daya AC-DC di PMS Line</option>
-        <option value="Pemasangan lock elektrik & mekanik PMS Bus A">7a. Pemasangan lock elektrik dan mekanik PMS Bus A</option>
-        <option value="Pemasangan lock elektrik & mekanik PMS Bus B">7b. Pemasangan lock elektrik dan mekanik PMS Bus B</option>
-        <option value="Pemasangan lock elektrik & mekanik PMS Line">7c. Pemasangan lock elektrik dan mekanik PMS Line</option>
-        <option value="Pengecekan sisa tegangan (Voltage Detector)">8. Pengecekan sisa tegangan (Voltage Detector)</option>
-        <option value="Pemasangan Grounding">9. Pemasangan grounding (tertera jumlah terpasang)</option>
-        <option value="Pemasangan LOTO">10. Pemasangan LOTO</option>
-        <option value="Pemasangan Rambu-rambu">11. Pemasangan rambu-rambu</option>
-        <option value="Status AR">12. Status AR</option>
-        <option value="Safety briefing sebelum pemeliharaan">13. Safety briefing sebelum pemeliharaan</option>
-        <option value="Kegiatan pemeliharaan (Checklist)">14. Kegiatan pemeliharaan (penggunaan checklist)</option>
-        <option value="Safety briefing pasca istirahat">15. Safety briefing pasca istirahat</option>
-        <option value="Pencatatan nilai tegangan induksi">16. Pencatatan nilai tegangan induksi (khusus bay line)</option>
-        <option value="QC Safety Advisor">17. QC Safety Advisor</option>
-        <option value="Pelepasan rambu-rambu">18. Pelepasan rambu-rambu</option>
-        <option value="Pelepasan LOTO">19. Pelepasan LOTO</option>
-        <option value="Pelepasan grounding">20. Pelepasan grounding (tertera jumlah terpasang)</option>
-        <option value="Pelepasan lock elektrik & mekanik PMS Bus A">21a. Pelepasan lock elektrik dan mekanik PMS Bus A</option>
-        <option value="Pelepasan lock elektrik & mekanik PMS Bus B">21b. Pelepasan lock elektrik dan mekanik PMS Bus B</option>
-        <option value="Pelepasan lock elektrik & mekanik PMS Line">21c. Pelepasan lock elektrik dan mekanik PMS Line</option>
-        <option value="Menyalakan catu daya AC-DC PMS Bus A">22a. Menyalakan supply catu daya AC-DC di PMS Bus A</option>
-        <option value="Menyalakan catu daya AC-DC PMS Bus B">22b. Menyalakan supply catu daya AC-DC di PMS Bus B</option>
-        <option value="Menyalakan catu daya AC-DC PMS Line">22c. Menyalakan supply catu daya AC-DC di PMS Line</option>
-        <option value="Merubah switch control PMT remote">23a. Merubah switch control di PMT menjadi remote</option>
-        <option value="Merubah switch control PMS Bus A remote">23b. Merubah switch control di PMS Bus A menjadi remote</option>
-        <option value="Merubah switch control PMS Bus B remote">23c. Merubah switch control di PMS Bus B menjadi remote</option>
-        <option value="Merubah switch control PMS Line remote">23d. Merubah switch control di PMS Line menjadi remote</option>
-        <option value="Pengecekan parameter arus-tegangan setelah pemberian tegangan">24. Pengecekan parameter arus-tegangan setelah pemberian tegangan</option>
-    </optgroup>
-</select>
-<button type="submit" class="px-4 py-1 bg-blue-500 text-white rounded">Kirim</button>
+                                        <select name="category" required class="p-2 border rounded">
+                                            <option value="Data Belum Di isi">Upload foto pelaksanaan</option>
+                                            <optgroup label="Foto Kegiatan">
+                                            <option value="Pengecekan Dokumen DP3, JSA, WP">1. Pengecekan Dokumen DP3, JSA, WP</option>
+                                            <option value="Pantauan hotspot sebelum manuver">2. Pantauan hotspot sebelum manuver</option>
+                                            <option value="Manuver menggunakan SOP Berbasis foto">3. Manuver menggunakan SOP Berbasis foto</option>
+                                            <option value="Pengecekan parameter arus-tegangan setelah pembebasan">4. Pengecekan parameter arus-tegangan setelah pembebasan</option>
+                                            <option value="Merubah switch control PMT off">5a. Merubah switch control di PMT menjadi off</option>
+                                            <option value="Merubah switch control PMS Bus A off">5b. Merubah switch control di PMS Bus A menjadi off</option>
+                                            <option value="Merubah switch control PMS Bus B off">5c. Merubah switch control di PMS Bus B menjadi off</option>
+                                            <option value="Merubah switch control PMS Line off">5d. Merubah switch control di PMS Line menjadi off</option>
+                                            <option value="Mematikan supply catu daya PMS Bus A">6a. Mematikan supply catu daya AC-DC di PMS Bus A</option>
+                                            <option value="Mematikan supply catu daya PMS Bus B">6b. Mematikan supply catu daya AC-DC di PMS Bus B</option>
+                                            <option value="Mematikan supply catu daya PMS Line">6c. Mematikan supply catu daya AC-DC di PMS Line</option>
+                                            <option value="Pemasangan lock elektrik & mekanik PMS Bus A">7a. Pemasangan lock elektrik dan mekanik PMS Bus A</option>
+                                            <option value="Pemasangan lock elektrik & mekanik PMS Bus B">7b. Pemasangan lock elektrik dan mekanik PMS Bus B</option>
+                                            <option value="Pemasangan lock elektrik & mekanik PMS Line">7c. Pemasangan lock elektrik dan mekanik PMS Line</option>
+                                            <option value="Pengecekan sisa tegangan (Voltage Detector)">8. Pengecekan sisa tegangan (Voltage Detector)</option>
+                                            <option value="Pemasangan Grounding">9. Pemasangan grounding (tertera jumlah terpasang)</option>
+                                            <option value="Pemasangan LOTO">10. Pemasangan LOTO</option>
+                                            <option value="Pemasangan Rambu-rambu">11. Pemasangan rambu-rambu</option>
+                                            <option value="Status AR">12. Status AR</option>
+                                            <option value="Safety briefing sebelum pemeliharaan">13. Safety briefing sebelum pemeliharaan</option>
+                                            <option value="Kegiatan pemeliharaan (Checklist)">14. Kegiatan pemeliharaan (penggunaan checklist)</option>
+                                            <option value="Safety briefing pasca istirahat">15. Safety briefing pasca istirahat</option>
+                                            <option value="Pencatatan nilai tegangan induksi">16. Pencatatan nilai tegangan induksi (khusus bay line)</option>
+                                            <option value="QC Safety Advisor">17. QC Safety Advisor</option>
+                                            <option value="Pelepasan rambu-rambu">18. Pelepasan rambu-rambu</option>
+                                            <option value="Pelepasan LOTO">19. Pelepasan LOTO</option>
+                                            <option value="Pelepasan grounding">20. Pelepasan grounding (tertera jumlah terpasang)</option>
+                                            <option value="Pelepasan lock elektrik & mekanik PMS Bus A">21a. Pelepasan lock elektrik dan mekanik PMS Bus A</option>
+                                            <option value="Pelepasan lock elektrik & mekanik PMS Bus B">21b. Pelepasan lock elektrik dan mekanik PMS Bus B</option>
+                                            <option value="Pelepasan lock elektrik & mekanik PMS Line">21c. Pelepasan lock elektrik dan mekanik PMS Line</option>
+                                            <option value="Menyalakan catu daya AC-DC PMS Bus A">22a. Menyalakan supply catu daya AC-DC di PMS Bus A</option>
+                                            <option value="Menyalakan catu daya AC-DC PMS Bus B">22b. Menyalakan supply catu daya AC-DC di PMS Bus B</option>
+                                            <option value="Menyalakan catu daya AC-DC PMS Line">22c. Menyalakan supply catu daya AC-DC di PMS Line</option>
+                                            <option value="Merubah switch control PMT remote">23a. Merubah switch control di PMT menjadi remote</option>
+                                            <option value="Merubah switch control PMS Bus A remote">23b. Merubah switch control di PMS Bus A menjadi remote</option>
+                                            <option value="Merubah switch control PMS Bus B remote">23c. Merubah switch control di PMS Bus B menjadi remote</option>
+                                            <option value="Merubah switch control PMS Line remote">23d. Merubah switch control di PMS Line menjadi remote</option>
+                                            <option value="Pengecekan parameter arus-tegangan setelah pemberian tegangan">24. Pengecekan parameter arus-tegangan setelah pemberian tegangan</option>
+                                            </optgroup>
+                                        </select>
+                                        <button type="submit" class="px-4 py-1 bg-blue-500 text-white rounded">Kirim</button>
+                                    </form>
 
                                 <?php endif; ?>
 
